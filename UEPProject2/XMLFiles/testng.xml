@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UEP Website">
+	<listeners>
+		<listener class-name="com.htc.uep.listener.TestNGListener"></listener>
+	</listeners>
+
+	<test name="UEP WebSite Test" preserve-order="true">
+		<classes>
+			
+			<class name="com.htc.uep.testcases.LoginTestUEP"></class>
+			
+
+
+		</classes>
+	</test>
+</suite>
