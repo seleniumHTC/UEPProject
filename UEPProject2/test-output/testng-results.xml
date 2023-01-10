@@ -8,16 +8,16 @@
       <![CDATA[URL IS LOADED SUCCESSFULLY:ChromeURL:https://uep-admin-dev.web.app/login]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-23T19:12:59 IST" name="UEP Website" finished-at="2022-12-23T19:13:12 IST" duration-ms="12866">
+  <suite started-at="2023-01-03T19:49:04 IST" name="UEP Website" finished-at="2023-01-03T19:49:19 IST" duration-ms="15015">
     <groups>
     </groups>
-    <test started-at="2022-12-23T19:12:59 IST" name="UEP WebSite Test" finished-at="2022-12-23T19:13:12 IST" duration-ms="12866">
+    <test started-at="2023-01-03T19:49:04 IST" name="UEP WebSite Test" finished-at="2023-01-03T19:49:19 IST" duration-ms="15015">
       <class name="com.htc.uep.testcases.LoginTestUEP">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2022-12-23T19:12:59 IST" name="setupSuite" finished-at="2022-12-23T19:12:59 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2023-01-03T19:49:04 IST" name="setupSuite" finished-at="2023-01-03T19:49:04 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2022-12-23T19:12:59 IST" name="setup" finished-at="2022-12-23T19:13:04 IST" duration-ms="5248" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2023-01-03T19:49:05 IST" name="setup" finished-at="2023-01-03T19:49:12 IST" duration-ms="7282" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
@@ -27,7 +27,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginApplication(java.util.Map)[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2022-12-23T19:13:06 IST" name="loginApplication" data-provider="InputData" finished-at="2022-12-23T19:13:11 IST" duration-ms="5582" status="PASS">
+        <test-method signature="loginApplication(java.util.Map)[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2023-01-03T19:49:13 IST" name="loginApplication" data-provider="InputData" finished-at="2023-01-03T19:49:19 IST" duration-ms="5310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2022-12-23T19:13:12 IST" name="tearDown" finished-at="2022-12-23T19:13:12 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2023-01-03T19:49:19 IST" name="tearDown" finished-at="2023-01-03T19:49:19 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownSuiteLevel()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2022-12-23T19:13:12 IST" name="tearDownSuiteLevel" finished-at="2022-12-23T19:13:13 IST" duration-ms="1007" status="PASS">
+        <test-method is-config="true" signature="tearDownSuiteLevel()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@51e69659]" started-at="2023-01-03T19:49:20 IST" name="tearDownSuiteLevel" finished-at="2023-01-03T19:49:21 IST" duration-ms="1162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuiteLevel -->
