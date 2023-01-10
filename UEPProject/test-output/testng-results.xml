@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[URL IS LOADED SUCCESSFULLY:ChromeURL:https://uep-admin-dev.web.app/login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-14T11:55:31 IST" name="Default suite" finished-at="2022-12-14T11:55:39 IST" duration-ms="8705">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T11:55:31 IST" name="Default test" finished-at="2022-12-14T11:55:39 IST" duration-ms="8705">
+      <class name="com.htc.uep.testcases.LoginTestUEP">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7]" started-at="2022-12-14T11:55:31 IST" name="setupSuite" finished-at="2022-12-14T11:55:31 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7]" started-at="2022-12-14T11:55:31 IST" name="setup" finished-at="2022-12-14T11:55:34 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[URL IS LOADED SUCCESSFULLY:ChromeURL:https://uep-admin-dev.web.app/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApplication(java.util.Map)[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7]" started-at="2022-12-14T11:55:35 IST" name="loginApplication" data-provider="InputData" finished-at="2022-12-14T11:55:39 IST" duration-ms="4135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=password, Email=abhyasi.25@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7]" started-at="2022-12-14T11:55:39 IST" name="tearDownMethod" finished-at="2022-12-14T11:55:39 IST" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplication status=SUCCESS method=LoginTestUEP.loginApplication(java.util.Map)[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.uep.testcases.LoginTestUEP@4dbb42b7]" started-at="2022-12-14T11:55:39 IST" name="tearDown" finished-at="2022-12-14T11:55:39 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.uep.testcases.LoginTestUEP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
